@@ -66,15 +66,15 @@ Open **`Weather Trend Forecasting.ipynb`** and **Run All**. The notebook:
 
 ```mermaid
 flowchart TD
-    A[Raw CSV] --> B[Parse & validate time<br/>drop dups]
+    A[Raw CSV] --> B[Parse & validate time drop dups]
     B --> C[Memory optimize & tidy types]
-    C --> D[Impute missing per city<br/>(median) + global fallback]
-    D --> E[Winsorize numeric tails<br/>(1st–99th pct)]
-    E --> F[EDA basics<br/>(coverage, temperature, precip, correlations)]
-    F --> G[Advanced EDA<br/>(anomalies, decomposition,<br/>climate, spatial, air-quality links)]
-    G --> H[Feature engineering<br/>(lags, rolling stats, calendar parts)]
-    H --> I[Model zoo<br/>Naive, Seasonal Naive,<br/>Random Forest, Gradient Boosting,<br/>Ridge, SARIMAX*]
-    I --> J[Validation split<br/>(last N days) & metrics]
+    C --> D[Impute missing per city (median) + global fallback]
+    D --> E[Winsorize numeric tails (1st–99th pct)]
+    E --> F[EDA basics (coverage, temperature, precip, correlations)]
+    F --> G[Advanced EDA (anomalies, decomposition, climate, spatial, air-quality links)]
+    G --> H[Feature engineering (lags, rolling stats, calendar parts)]
+    H --> I[Model zoo Naive, Seasonal Naive, Random Forest, Gradient Boosting, Ridge, SARIMAX*]
+    I --> J[Validation split (last N days) & metrics]
     J --> K[Stacked ensemble + intervals]
     K --> L[Short-horizon forecast]
     G --> M[Focused geos: India, Dubai, NYC]
