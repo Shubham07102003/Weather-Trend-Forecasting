@@ -12,7 +12,10 @@ This repository contains a complete, end-to-end project for **Weather Trend Fore
 ---
 
 ## 1) Introduction
-This notebook was made just for the PMA test.  The goal is to show that you have good practical data-science judgment by doing things like clean preprocessing, clear exploratory work, careful modeling choices, and clear communication.  It's easy to run the code from top to bottom and change it to work with other cities, countries, or forecasting targets.
+
+This notebook was made just for the PMA test.  The goal is to show that you have good practical data-science judgment by doing things like clean preprocessing, clear exploratory work, careful modeling choices, and clear communication.  It's easy to run the code from top to bottom and change it to work with other cities, countries, or forecasting targets. 
+
+
 ---
 
 ## 2) Dataset
