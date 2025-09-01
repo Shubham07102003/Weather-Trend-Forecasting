@@ -1,19 +1,18 @@
 # Weather Trend Forecasting
 **Author:** Shubham  
-**Role/Application:** Tech assessment for the **Data Scientist** role at **PMA (Product Management Accelerator)** program  
-**Date:** August 29, 2025
+**Application:** Tech assessment for the **Data Scientist** role at **PMA (Product Management Accelerator)** program  
+**Date:** August 31, 2025
 
 This repository contains a complete, end-to-end project for **Weather Trend Forecasting** using the *Global Weather Repository* dataset (Kaggle). It fulfills the **basic** and the **advanced** parts of the brief, and adds extra depth—especially around anomaly detection, climate patterns, spatial and geographical analysis, and multi-model forecasting with a small **stacked ensemble**. The **PM Accelerator mission** is surfaced inside the notebook, as requested in the assignment.
 
 > **Deliverables included**
 > - Jupyter Notebook: **`Weather Trend Forecasting.ipynb`**
-> - Documentation: **`README.md`** (this file)
+> - Documentation: **`README.md`** (this file) and in-depth report included
 
 ---
 
-## 1) Why this project exists (and what the reviewer should know)
-This notebook was written specifically for the PMA assessment. The aim is to **demonstrate practical data-science judgment**: tidy preprocessing, readable exploratory work, careful modeling choices, and crisp communication. The code is written so it’s easy to run top-to-bottom and easy to adapt to other cities/countries or different forecasting targets.
-
+## 1) Introduction
+This notebook was made just for the PMA test.  The goal is to show that you have good practical data-science judgment by doing things like clean preprocessing, clear exploratory work, careful modeling choices, and clear communication.  It's easy to run the code from top to bottom and change it to work with other cities, countries, or forecasting targets.
 ---
 
 ## 2) Dataset
@@ -30,6 +29,7 @@ This notebook was written specifically for the PMA assessment. The aim is to **d
 .
 ├── Weather Trend Forecasting.ipynb     <- Main notebook (analysis + models + visuals)
 ├── README.md                           <- You are here
+├── In-depth report                     <- For Documentation
 └── GlobalWeatherRepository.csv         <- Dataset (place or mount as needed)
 ```
 
@@ -204,7 +204,7 @@ sequenceDiagram
 
 ---
 
-## 17) FAQs
+## 17) Quick FAQs
 - Why winsorize? Preserve data but cap extremes.  
 - Why not deep learning? Faster, interpretable models.  
 - Why linear stacker? Transparent blending.  
@@ -213,7 +213,6 @@ sequenceDiagram
 
 ## 18) Acknowledgments
 - **Shubham** (author)  
-- **PMA (Product Management Accelerator)** – for guidelines & mission.  
 - **Kaggle** – dataset hosting.  
 
 ---
@@ -221,7 +220,4 @@ sequenceDiagram
 ## 19) License
 For assessment and educational purposes only.  
 
----
 
-### Final note
-This project is **readable, reproducible, and interview-ready**. Variants (other cities, models, or horizons) are easy to implement.
